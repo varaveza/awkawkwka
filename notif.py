@@ -129,7 +129,7 @@ def main():
                 message = (
                     f"**🍎 Notifikasi Stok Gmail Apple!**\n\n"
                     f"📧 Domain: `gmail.com`\n"
-                    f"📦 Stok: *{gmail_count}* (Sebelumnya: {last_known_stock if last_known_stock != -1 else 'N/A'})\n"
+                    f"📦 Stok: *{gmail_count}*\n"
                     f"💰 Harga: ₽{gmail_price}\n"
                     f"⏰ Waktu: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
                 )

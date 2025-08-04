@@ -8,7 +8,7 @@ TELEGRAM_BOT_TOKEN = "8330025895:AAFdd4OMdX3GNpWqaGB9GODMOduGJZ9xNW8"
 TELEGRAM_CHAT_ID = ["7398809677", "1737464807"]
 
 # Waktu tunggu antara setiap request (dalam detik).
-WAIT_TIME_SECONDS = 300  # 5 menit
+WAIT_TIME_SECONDS = 3 
 
 # URL untuk mengirim pesan ke Telegram
 telegram_url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"

@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 
 # --- Konfigurasi Telegram ---
-TELEGRAM_BOT_TOKEN = "8330025895:AAFdd4OMdX3GNpWqaGB9GODMOduGJZ9xNW8"
+TELEGRAM_BOT_TOKEN = "8330025895:AAFkDpvRqvhTLQhhrEykfUk2EO_DjqfKR9A"
 TELEGRAM_CHAT_ID = ["7398809677", "1737464807"]
 
 # Waktu tunggu antara setiap request (dalam detik).

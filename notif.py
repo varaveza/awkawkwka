@@ -122,7 +122,7 @@ def main():
 
             # Baca stok terakhir dari file
             last_known_stock = read_last_stock()
-            print(f"📦 Stok saat ini: {gmail_count}, Stok sebelumnya: {last_known_stock}")
+            print(f"📦 Stok saat ini: {gmail_count}")
 
             # **LOGIKA UTAMA: Kirim notifikasi HANYA jika stok berubah dan lebih dari 0**
             if gmail_count > 0 and gmail_count != last_known_stock:

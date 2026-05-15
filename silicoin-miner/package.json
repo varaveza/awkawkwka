@@ -1,0 +1,17 @@
+{
+  "name": "slc-miner",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Silicoin (SLC) PoW miner",
+  "main": "miner.js",
+  "scripts": {
+    "mine": "node miner.js"
+  },
+  "keywords": ["silicoin", "mining", "pow"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "viem": "^2.21.54",
+    "dotenv": "^16.4.7"
+  }
+}
